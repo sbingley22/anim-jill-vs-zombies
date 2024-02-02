@@ -23,6 +23,7 @@
     "@react-three/fiber": "^8.15.16",
     "@react-three/postprocessing": "^2.15.12",
     "leva": "^0.9.35",
+    "react-audio-player": "^0.17.0",
     "three": "^0.160.1"
   },
   "devDependencies": {

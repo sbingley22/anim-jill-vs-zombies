@@ -1,34 +1,16 @@
 # jill-vs-zombies
 
-An Electron application with React
+A simple react three animation made using assets made in blender and with 3D AI image generation.
 
-## Recommended IDE Setup
+Packages installed:
+npm i three @react-three/fiber @react-three/drei @react-three/post-processing react-audio-player
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+settings.json:
+"editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
 
-## Project Setup
-
-### Install
-
-```bash
-$ npm install
-```
-
-### Development
-
-```bash
-$ npm run dev
-```
-
-### Build
-
-```bash
-# For windows
-$ npm run build:win
-
-# For macOS
-$ npm run build:mac
-
-# For Linux
-$ npm run build:linux
-```
+Notes:
+Disabled CSP in index.html.
+Applied 100vw 100vh to root in css
